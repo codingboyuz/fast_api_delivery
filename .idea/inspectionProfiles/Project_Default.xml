@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="asgiref" />
+          <option value="attrs" />
+          <option value="autobahn" />
+          <option value="Automat" />
+          <option value="cffi" />
+          <option value="channels" />
+          <option value="channels_redis" />
+          <option value="constantly" />
+          <option value="cryptography" />
+          <option value="daphne" />
+          <option value="Django" />
+          <option value="django-cors-headers" />
+          <option value="djangorestframework" />
+          <option value="hyperlink" />
+          <option value="idna" />
+          <option value="incremental" />
+          <option value="msgpack" />
+          <option value="pyasn1" />
+          <option value="pyasn1_modules" />
+          <option value="pycparser" />
+          <option value="pyOpenSSL" />
+          <option value="redis" />
+          <option value="service-identity" />
+          <option value="setuptools" />
+          <option value="sqlparse" />
+          <option value="Twisted" />
+          <option value="txaio" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="zope.interface" />
+          <option value="flask" />
+          <option value="keras" />
+          <option value="pandas" />
+          <option value="numpy" />
+          <option value="tensorflow" />
+          <option value="coloredlogs" />
+          <option value="pymongo" />
+          <option value="mypy" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
