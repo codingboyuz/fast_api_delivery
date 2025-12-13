@@ -1,11 +1,23 @@
 from fastapi import FastAPI
 from auth_routes import auth_router
 from order_routes import order_router
+from database import engine
+from models import Base
+
 app = FastAPI()
+
+@app.on_event("startup")
+def startup():
+    Base.metadata.create_all(bind=engine)
 
 app.include_router(auth_router)
 app.include_router(order_router)
+
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
+
+
 
